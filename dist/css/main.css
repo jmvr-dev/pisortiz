@@ -1,0 +1,105 @@
+/* =============================================================================
+	Variables
+============================================================================= */
+:root {
+	/* Containers =========================================================== */
+	--x-small: 600px;
+	--small: 800px;
+	--medium: 1000px;
+	--large: 1200px;
+	/* Breakpoints ========================================================== */
+	--mobile: var(--x-small);
+	--tablet: var(--small);
+	--desktop: var(--medium);
+	/* Global Colors ======================================================== */
+	--background: white;
+	--primary-color: #0366ee;
+	--secondary-color: #29de7d;
+	--accent-color: #cdcdcd;
+	--alternate-background: #fafafa;
+	--alternate-color: #404040;
+	--link-color: var(--primary-color);
+	--link-hover-color: color(var(--link-color) blackness(+ 15%));
+	--highlight: #ffeea8;
+	--error: #d33c40;
+	--success: #29de7d;
+	--bq-border: 16px solid #f0f0f0;
+	/* Typography =========================================================== */
+	/* Body */
+	--font-size: 1rem;
+	--body-font-size: 1rem;
+	--font-style: normal;
+	--font-variant: normal;
+	--font-weight: normal;
+	--font-color: #404040;
+	--font-family: sans-serif;
+	--line-height: 1.6;
+	/* Headings */
+	--heading-font-color: #404040;
+	--heading-font-weight: 600;
+	--heading-font-family: sans-serif;
+	--heading-line-height: 1.2;
+	/* Headings Mobile */
+	--h1-mobile: 1.75rem;
+	--h2-mobile: 1.5rem;
+	--h3-mobile: 1.25rem;
+	--h4-mobile: 1.1rem;
+	--h5-mobile: 1rem;
+	/* Headings Desktop */
+	--h1: 2.25rem;
+	--h2: 2rem;
+	--h3: 1.75rem;
+	--h4: 1.5rem;
+	--h5: 1.25rem;
+	/* Spacing ============================================================== */
+	--padding: 1rem;
+	--margins: 1.5rem;
+	--content-padding: 60px 0;
+	--content-padding-mobile: 30px 0;
+	/* Borders ============================================================== */
+	--border-width: 1px;
+	--border-style: solid;
+	--border-color: #dedede;
+	--border-radius: 4px;
+	--borders: var(--border-width) var(--border-style) var(--border-color);
+	/* Buttons ============================================================== */
+	--button-background: var(--primary-color);
+	--button-background-hover: color(var(--button-background) blackness(+ 10%));
+	--button-color: #ffffff;
+	--button-font-weight: 600;
+	--button-font-family: sans-serif;
+	--button-font-size: 1rem;
+	--button-border-width: 1px;
+	--button-border-style: solid;
+	--button-border-color: var(--button-background);
+	--button-border-radius: var(--border-radius);
+	--button-text-transform: none;
+	/* Accent buttons */
+	--accent-button-background: var(--secondary-color);
+	--accent-button-color: #ffffff;
+	--accent-button-color-hover: #ffffff;
+	/* Muted Buttons */
+	--muted-border: 1px solid var(--accent-color);
+	--muted-border-hover: 1px solid color(var(--accent-color) darkness(+30%));
+	--muted-background: transparent;
+	--muted-background-hover: transparent;
+	--muted-color: color(var(--accent-color) darkness(+50%));
+	--muted-color-hover: color(var(--accent-color) darkness(+50%));
+	/* Round Buttons */
+	--round-buttons: 40px;
+	/* Forms ================================================================ */
+	--input-background: transparent;
+	--placeholder: color(var(--accent-color) darkness(+20%));
+	--form-border: 1px solid var(--border-color);
+	--form-border-hover: 1px solid color(var(--border-color) darkness(+10%));
+	--form-border-focus: 1px solid var(--link-color);
+	/* Tables =============================================================== */
+	--stripes: #f8f8f8;
+	--caption: #ababab;
+	/* Code ================================================================= */
+	--code-color: var(--font-color);
+	--code-size: 14px;
+	--code-family: monospace;
+	--code-background: transparent;
+	--code-borders: var(--borders);
+}

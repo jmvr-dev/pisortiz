@@ -1,0 +1,31 @@
+{
+	"lang": "es[-MX]",
+	"name": "Nombre del sitio",
+	"short_name": "nombresitio",
+	"description": "",
+	"start_url": "./?utm_source=web_app_manifest",
+	"display": "standalone",
+	"orientation": "portrait-primary",
+	"icons": [
+		{
+			"src": "icon/lowres.webp",
+			"sizes": "48x48",
+			"type": "image/webp"
+		},
+		{
+			"src": "icon/lowres",
+			"sizes": "48x48"
+		},
+		{
+			"src": "icon/hd_hi.ico",
+			"sizes": "72x72 96x96 128x128 256x256"
+		},
+		{
+			"src": "icon/hd_hi.svg",
+			"sizes": "72x72"
+		}
+	],
+	"theme_color": "#444444",
+	"background_color": "#ffffff",
+	"scope": "/myapp/"
+}

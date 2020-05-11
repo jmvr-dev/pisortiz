@@ -1,0 +1,24 @@
+{
+	"typescript.validate.enable": false,
+	"typescript.format.enable": false,
+	"javascript.validate.enable": false,
+    "eslint.enable": true,
+    "liveSassCompile.settings.formats": [
+        {
+			// "format": "compressed",
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/dist/css"
+        }
+    ],
+    "liveSassCompile.settings.generateMap": true,
+    "liveSassCompile.settings.showOutputWindow": false,
+    "liveSassCompile.settings.excludeList": [
+        "**/node_modules/**",
+    ],
+    "CSSNavigation.excludeGlobPatterns": [
+      "**/node_modules/**",
+      "**/vendor/**",
+      "**/dist/css/**"
+	]
+}

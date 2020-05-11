@@ -1,0 +1,11 @@
+/* TEAM */
+Developer: J. Manuel Velázquez.
+Email: jmvr.dev at gmail.com
+Twitter: @jmvelazquezr
+Location: CDMX, Mexico.
+
+/* SITE */
+Last update: 2020/04/12
+Standards: HTML5, CSS3, JS(ES6)
+Components: Modernizr, jQuery, etc.
+Software: Software used for the development

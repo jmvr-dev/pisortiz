@@ -1,0 +1,10 @@
+{
+	"arrowParens": "avoid",
+	"bracketSpacing": true,
+	"endOfLine": "lf",
+	"tabWidth": 4,
+	"useTabs": true,
+	"singleQuote": true,
+
+	"overrides": []
+}
