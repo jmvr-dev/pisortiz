@@ -37,3 +37,90 @@ img {
 /* =============================================================================
 	Estilos
 ==============================================================================*/
+
+body {
+	background-color: #000000;
+	color: #ffffff;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+}
+
+header {
+	background: rgba(0, 0, 0, 0.9);
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+	width: 100vw;
+	padding: 0.5rem 1rem;
+}
+
+.logo {
+	width: 10rem;
+}
+
+.nav-toggle {
+	position: absolute !important;
+	top: -9999px !important;
+	left: -9999px !important;
+}
+
+.nav-toggle:focus ~ .nav-toggle-label {
+	outline: 1px solid rgba($primary-color, 0.5);
+}
+
+.nav-toggle:checked ~ nav {
+	transform: scale(1, 1);
+}
+
+.nav-toggle:checked ~ nav a {
+	opacity: 1;
+	transition: opacity 250ms ease-in-out 250ms;
+}
+
+nav {
+	position: absolute;
+	text-align: left;
+	top: 100%;
+	left: 0;
+	background: rgba(0, 0, 0, 0.9);
+	width: 100%;
+	transform: scale(1, 0);
+	transform-origin: top;
+	transition: transform 200ms ease-in-out;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	margin-bottom: 2em;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+nav li:first-child {
+	margin-top: 2em;
+}
+
+nav a {
+	display: block;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 1.2rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 0.5rem;
+	border-radius: 0.2rem;
+	opacity: 0;
+	transition: opacity 150ms ease-in-out;
+}
+
+nav a:hover {
+	background-color: #ffffff;
+	color: #000000;
+}
