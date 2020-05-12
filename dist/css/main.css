@@ -124,3 +124,45 @@ nav a:hover {
 	background-color: #ffffff;
 	color: #000000;
 }
+
+footer {
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+	color: #6d6d6d;
+	margin: 1rem auto;
+	padding: 1rem 0;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.social {
+	list-style: none;
+	display: flex;
+	width: 50%;
+	justify-content: flex-end;
+	margin: 0 -1rem;
+}
+
+.social > * {
+	margin: 0 1rem;
+}
+
+footer a {
+	text-decoration: none;
+	color: #6d6d6d;
+}
+
+footer a:visited {
+	color: #6d6d6d;
+}
+
+footer a:hover {
+	color: #ffffff;
+}
+
+.copyright {
+	margin-top: 1rem;
+	font-size: 0.8rem;
+	width: 100%;
+	text-align: center;
+}
