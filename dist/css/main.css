@@ -54,8 +54,7 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	position: relative;
-	width: 100vw;
-	padding: 0.5rem 1rem;
+	width: 100%;
 }
 
 .logo {
@@ -133,6 +132,7 @@ nav a:hover {
 	margin: 1rem 0;
 }
 
+}
 /* Footer ------------------------------------------------------------------- */
 
 footer {
