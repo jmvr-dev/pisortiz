@@ -43,6 +43,7 @@ body {
 	color: #ffffff;
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 400;
+	padding: 1rem;
 }
 
 /* Header ------------------------------------------------------------------- */
@@ -68,7 +69,7 @@ header {
 }
 
 .nav-toggle:focus ~ .nav-toggle-label {
-	outline: 1px solid rgba($primary-color, 0.5);
+	outline: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .nav-toggle:checked ~ nav {
