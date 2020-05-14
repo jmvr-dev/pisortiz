@@ -50,6 +50,18 @@
 		<section class="hero">
 			<img src="img/hero.svg" alt="PisOrtiz" />
 		</section>
+		<form id="contacto" action="">
+			<input type="hidden" name="recipient" value="info@pisortiz.com" />
+			<input type="hidden" name="subject" value="PisOrtiz.com - Comentario" />
+			<label for="nombre">Nombre *</label>
+			<input type="text" name="nombre" size="50" value="" required class="form-field" />
+			<label for="email">E-Mail *</label>
+			<input type="email" name="email" size="20" value="" required class="form-field" />
+			<label for="comentario">Comentarios *</label>
+			<textarea name="comentario" id="comentario" rows="4" required class="form-field"></textarea>
+			<button type="submit">Enviar</button>
+			<input type="hidden" name="redirect" value="https://pisortiz.com/" />
+		</form>
 	</main>
 	<footer>
 		<a href="#contacto">Contacto</a>

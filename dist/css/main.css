@@ -132,7 +132,55 @@ nav a:hover {
 	margin: 1rem 0;
 }
 
+form {
+	margin: 2.5rem 0;
+	display: flex;
+	flex-direction: column;
 }
+
+form label {
+	display: block;
+}
+
+.form-field {
+	display: block;
+	background-color: #4d4d4d;
+	color: #ffffff;
+	border: 1px solid #000000;
+	border-radius: 4px;
+	width: 100%;
+	margin-top: 0.2rem;
+	margin-bottom: 1rem;
+	padding: 8px 5px;
+}
+
+.form-field:-webkit-autofill {
+	-webkit-box-shadow: 0 0 0 100px #4d4d4d inset;
+	-webkit-text-fill-color: #ffffff;
+}
+
+button {
+	align-self: flex-end;
+	background-color: #aaaaaa;
+	border: 1px solid #000000;
+	border-radius: 4px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.1rem;
+	padding: 8px 5px;
+	width: 30%;
+}
+
+button:hover {
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.form-field:focus,
+button:focus {
+	border: 1px solid #ffffff;
+	outline-width: 0;
+}
+
 /* Footer ------------------------------------------------------------------- */
 
 footer {
