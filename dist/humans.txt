@@ -1,11 +1,13 @@
-/* TEAM */
-Developer: J. Manuel Velázquez.
-Email: jmvr.dev at gmail.com
+/* HUMAN */
+Author/Developer: Manuel Velázquez
+Site:
+Location: CDMX, Mexico
 Twitter: @jmvelazquezr
-Location: CDMX, Mexico.
+Github: @jmvr-dev
 
 /* SITE */
-Last update: 2020/04/12
+Last update: 2020/05/17
+Language: Español
 Standards: HTML5, CSS3, JS(ES6)
-Components: Modernizr, jQuery, etc.
-Software: Software used for the development
+Components: Swiper.js
+IDE: VSCode
