@@ -184,6 +184,26 @@ button:focus {
 	outline-width: 0;
 }
 
+.galeria {
+	margin-top: 1rem;
+}
+
+figcaption {
+	font-size: 0.9rem;
+}
+
+.swiper-container {
+	width: 100%;
+}
+
+.swiper-pagination {
+	position: initial;
+}
+
+.swiper-pagination-bullet {
+	background-color: #4d4d4d;
+}
+
 /* Footer ------------------------------------------------------------------- */
 
 footer {
