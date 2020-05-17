@@ -6,6 +6,8 @@ node_modules
 ######################
 test.*
 temp
+fileinfo.txt
+referencia.txt
 
 # Compiled files     #
 ######################
