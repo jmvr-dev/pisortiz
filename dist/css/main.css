@@ -1,7 +1,6 @@
 /* =============================================================================
 	Reset
 ==============================================================================*/
-/* Box sizing rules */
 *,
 *::before,
 *::after {
@@ -10,27 +9,24 @@
 	padding: 0;
 }
 
-/* Set core body defaults */
 body {
+	line-height: 1.5;
 	min-height: 100vh;
 	scroll-behavior: smooth;
 	text-rendering: optimizeSpeed;
-	line-height: 1.5;
 }
 
-/* Make images easier to work with */
 img {
-	max-width: 100%;
 	display: block;
+	max-width: 100%;
 }
 
-/* Remove all animations and transitions for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
 	* {
 		animation-duration: 0.01ms !important;
 		animation-iteration-count: 1 !important;
-		transition-duration: 0.01ms !important;
 		scroll-behavior: auto !important;
+		transition-duration: 0.01ms !important;
 	}
 }
 
@@ -42,18 +38,18 @@ body {
 	background-color: #000000;
 	color: #ffffff;
 	font-family: 'Baloo 2', sans-serif;
-	font-weight: 400;
 	font-size: 100%;
+	font-weight: 400;
 	padding: 1rem;
 }
 
 /* Header ------------------------------------------------------------------- */
 
 header {
+	align-items: center;
 	background: rgba(0, 0, 0, 0.9);
 	display: flex;
 	flex-direction: row-reverse;
-	align-items: center;
 	justify-content: space-between;
 	position: relative;
 	width: 100%;
@@ -64,9 +60,9 @@ header {
 }
 
 .nav-toggle {
+	left: -9999px !important;
 	position: absolute !important;
 	top: -9999px !important;
-	left: -9999px !important;
 }
 
 .nav-toggle:focus ~ .nav-toggle-label {
@@ -83,21 +79,21 @@ header {
 }
 
 nav {
+	background: rgba(0, 0, 0, 0.9);
+	left: 0;
 	position: absolute;
 	text-align: left;
 	top: 100%;
-	left: 0;
-	background: rgba(0, 0, 0, 0.9);
-	width: 100%;
-	transform: scale(1, 0);
 	transform-origin: top;
+	transform: scale(1, 0);
 	transition: transform 200ms ease-in-out;
+	width: 100%;
 }
 
 nav ul {
+	list-style: none;
 	margin: 0;
 	padding: 0;
-	list-style: none;
 }
 
 nav li {
@@ -111,15 +107,15 @@ nav li:first-child {
 }
 
 nav a {
-	display: block;
+	border-radius: 0.2rem;
 	color: #ffffff;
-	text-decoration: none;
+	display: block;
 	font-size: 1.2rem;
 	font-weight: 700;
-	text-transform: uppercase;
-	padding: 0.5rem;
-	border-radius: 0.2rem;
 	opacity: 0;
+	padding: 0.5rem;
+	text-decoration: none;
+	text-transform: uppercase;
 	transition: opacity 150ms ease-in-out;
 }
 
@@ -135,9 +131,9 @@ nav a:hover {
 }
 
 form {
-	margin: 2.5rem 0;
 	display: flex;
 	flex-direction: column;
+	margin: 2.5rem 0;
 }
 
 form label {
@@ -146,15 +142,15 @@ form label {
 }
 
 .form-field {
-	display: block;
 	background-color: #4d4d4d;
-	color: #ffffff;
-	border: 1px solid #000000;
 	border-radius: 4px;
-	width: 100%;
-	margin-top: 0.2rem;
+	border: 1px solid #000000;
+	color: #ffffff;
+	display: block;
 	margin-bottom: 1rem;
+	margin-top: 0.2rem;
 	padding: 8px 5px;
+	width: 100%;
 }
 
 .form-field:-webkit-autofill {
@@ -195,17 +191,17 @@ figcaption {
 
 /* Glide.js theme */
 .glide__arrow {
-	position: absolute;
-	display: block;
-	top: 45%;
-	z-index: 2;
-	color: #adadad;
-	padding: 5px;
 	background-color: transparent;
 	border: none;
+	color: #adadad;
 	cursor: pointer;
-	transition: color 200ms ease;
+	display: block;
+	padding: 5px;
+	position: absolute;
+	top: 45%;
 	transform: translateY(-50%);
+	transition: color 200ms ease;
+	z-index: 2;
 }
 
 .glide__arrow:focus {
@@ -245,19 +241,19 @@ figcaption {
 footer {
 	border-top: 1px solid rgba(255, 255, 255, 0.1);
 	color: #6d6d6d;
-	margin: 1rem auto;
-	padding: 1rem 0;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
+	margin: 1rem auto;
+	padding: 1rem 0;
 }
 
 .social {
-	list-style: none;
 	display: flex;
-	width: 50%;
 	justify-content: flex-end;
+	list-style: none;
 	margin: 0 -1rem;
+	width: 50%;
 }
 
 .social > * {
@@ -265,8 +261,8 @@ footer {
 }
 
 footer a {
-	text-decoration: none;
 	color: #6d6d6d;
+	text-decoration: none;
 }
 
 footer a:visited {
@@ -278,8 +274,8 @@ footer a:hover {
 }
 
 .copyright {
-	margin-top: 1rem;
 	font-size: 0.8rem;
-	width: 100%;
+	margin-top: 1rem;
 	text-align: center;
+	width: 100%;
 }
