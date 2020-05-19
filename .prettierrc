@@ -6,5 +6,18 @@
 	"useTabs": true,
 	"singleQuote": true,
 
-	"overrides": []
+	"overrides": [
+		{
+			"files": "*.scss",
+			"options": {
+				"singleQuote": false
+			}
+		},
+		{
+			"files": "*.css",
+			"options": {
+				"singleQuote": false
+			}
+		}
+	]
 }
