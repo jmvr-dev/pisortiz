@@ -4,7 +4,7 @@ Página personal con un formulario para contacto y un portafolio con tres galer�
 
 ## URL
 
-	[www.pisortiz.com](https://www.pisortiz.com)
+[www.pisortiz.com](https://www.pisortiz.com)
 
 ## Notas
 
@@ -15,4 +15,4 @@ Página personal con un formulario para contacto y un portafolio con tres galer�
 
 ## Autor
 
-- [Manuel Velázquez](https://github.com/jmvr-dev)
+[Manuel Velázquez](https://github.com/jmvr-dev)
