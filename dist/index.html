@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>PisOrtiz</title>
 	<meta name="description" content="Pis Ortiz. Diseño gráfico.">
 	<meta name="robots" content="index,follow">
@@ -55,13 +55,13 @@
 			<img src="img/hero.svg" alt="PisOrtiz" />
 		</div>
 		<div class="forma">
-			<form id="contacto" action="">
+			<form id="contacto">
 				<input type="hidden" name="recipient" value="info@pisortiz.com" />
 				<input type="hidden" name="subject" value="PisOrtiz.com - Comentario" />
 				<label for="nombre">Nombre *</label>
-				<input type="text" name="nombre" size="50" value="" required class="form-field" />
+				<input type="text" name="nombre" id="nombre" size="50" value="" required class="form-field" />
 				<label for="email">E-Mail *</label>
-				<input type="email" name="email" size="20" value="" required class="form-field" />
+				<input type="email" name="email" id="email" size="20" value="" required class="form-field" />
 				<label for="comentario">Comentarios *</label>
 				<textarea name="comentario" id="comentario" rows="4" required class="form-field"></textarea>
 				<button type="submit">Enviar</button>
