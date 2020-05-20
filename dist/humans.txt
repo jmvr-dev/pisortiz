@@ -9,5 +9,5 @@ Github: @jmvr-dev
 Last update: 2020/05/17
 Language: Español
 Standards: HTML5, CSS3, JS(ES6)
-Components: Swiper.js
+Components: tiny-slider.js
 IDE: VSCode
